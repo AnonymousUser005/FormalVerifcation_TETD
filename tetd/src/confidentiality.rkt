@@ -322,8 +322,8 @@
     (assert
           (not
             (and
-              (secure_EPT_entry? entry11-a)
-              (secure_EPT_entry? entry11-b)
+              (secure_EPT_entry? entry12-a)
+              (secure_EPT_entry? entry12-b)
               (= va12-a va12-b)
               (< time12-a time12-b)
               (> relocation-time time12-a)
